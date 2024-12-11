@@ -1,0 +1,117 @@
+.fixed-deposit-page {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+.fd-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.fd-content h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.fd-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.fd-card {
+    flex: 1;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.fd-card:hover {
+    transform: scale(1.05);
+}
+
+.fd-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fd-info h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.fd-info p {
+    font-size: 16px;
+    color: #34495e;
+    text-decoration: none;
+}
+.ok{
+    width: 700px;
+}
+/* Remove the underline from the text */
+.fd-card {
+    text-decoration: none;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.fd-info h3 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.fd-info p {
+    font-size: 18px;
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.fd-card:hover .fd-info h3,
+.fd-card:hover .fd-info p {
+    text-decoration: none;
+    color: #2980b9; /* Optional: Change text color on hover */
+}
+
+/* General styling for the FD cards */
+.fd-card {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.fd-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.fd-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fd-info {
+    padding: 20px;
+}
+
